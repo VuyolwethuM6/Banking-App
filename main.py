@@ -600,7 +600,7 @@ Main_Menu()
 
 
 
-    # If all validations pass, proceed with user registration logic
+    
     # ...
 
 # Example usage:
