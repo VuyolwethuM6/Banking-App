@@ -68,7 +68,7 @@ def register_user(master, username, account, amount, gen_password, security_ques
     Main_Menu()
 
 
-#
+
 def signup(master):
     ctk.set_appearance_mode("dark")
     ctk.set_default_color_theme("blue")
