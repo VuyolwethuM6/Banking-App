@@ -21,7 +21,6 @@ def save_user_data(user_data):
     with open(USER_DATA_FILE, 'w') as file:
         json.dump(user_data, file, indent=2)
 
-
 def validate_inputs(input1, input2, input3):
     # Validate the first input (must be text)
     if not isinstance(input1, str):
