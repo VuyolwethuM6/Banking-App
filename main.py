@@ -257,7 +257,6 @@ def check_log_in(master, username, password):
         #logged_in_menu(account_num)
 
 
-
 def log_in(master):
     ctk.set_appearance_mode("dark")
     ctk.set_default_color_theme("blue")
