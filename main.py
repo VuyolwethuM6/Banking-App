@@ -15,7 +15,6 @@ def load_user_data():
     except FileNotFoundError:
         return {}
 
-
 def save_user_data(user_data):
     with open(USER_DATA_FILE, 'w') as file:
         json.dump(user_data, file, indent=2)
