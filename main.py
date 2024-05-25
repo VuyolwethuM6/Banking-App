@@ -174,7 +174,6 @@ def signup(master):
     # master.destry()
     return
 
-
 def recover_password(master, username, new_password, security_answer):
 
     user_data = load_user_data()
