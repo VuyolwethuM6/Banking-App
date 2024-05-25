@@ -35,7 +35,6 @@ def validate_inputs(input1, input2, input3):
     # All validations passed
     return True
 
-
 def register_user(master, username, account, amount, gen_password, security_question, security_answer):
 
     user_data = load_user_data()
@@ -63,7 +62,6 @@ def register_user(master, username, account, amount, gen_password, security_ques
     CTkMessagebox(title="Acc Details", message="Your Account Number is: " + str(account), icon="check")
     master.destroy()
     Main_Menu()
-
 
 
 def signup(master):
