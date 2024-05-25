@@ -8,7 +8,6 @@ import json
 
 USER_DATA_FILE = 'user_data.txt'
 
-
 def load_user_data():
     try:
         with open(USER_DATA_FILE, 'r') as file:
