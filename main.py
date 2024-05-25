@@ -317,7 +317,6 @@ def log_in(master):
     b1.grid(row=2, column=0, pady=12, padx=10, sticky="w")
     login_wind.bind("<Return>", lambda x: check_log_in(login_wind, e2.get().strip(), e3.get().strip()))
 
-
 def logged_in_menu(username):
     ctk.set_appearance_mode("dark")
     ctk.set_default_color_theme("blue")
