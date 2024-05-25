@@ -196,7 +196,6 @@ def recover_password(master, username, new_password, security_answer):
         CTkMessagebox(title="Error", message="User not found.\n", icon="warning")
         return
 
-
 # Add this function for handling forgotten passwords
 def forgot_password(master):
     ctk.set_appearance_mode("dark")
