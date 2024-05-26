@@ -167,7 +167,6 @@ def signup(master):
     b1 = ctk.CTkButton(signup_wind, text="Back", command=signup_wind.destroy)
     b1.grid(row=5, column=2, pady=12, padx=10)
 
-    #
     # register_user(e1.get().strip(), e2.get().strip(), e3.get().strip(), 'What is your pet\'s name?:', e4.get().strip())
     signup_wind.bind("<Return>", lambda x:  register_user(signup_wind, e1.get().strip(), account, e2.get().strip(),
                                                     e3.get().strip(), 'What is your pet\'s name?:', e4.get().strip()))
