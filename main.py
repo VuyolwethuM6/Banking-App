@@ -245,7 +245,6 @@ def check_log_in(master, username, password):
         else:
             print("User not found.")
             return False
-        # You can perform additional actions for a successful login here
     else:
         CTkMessagebox(title="Error", message=f"Error: User '{username}' not found. Please check your username.", icon="warning")
         print(f"Error: User '{username}' not found. Please check your username.")
