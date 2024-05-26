@@ -423,7 +423,6 @@ def crdt_write(master, amount, username):
         CTkMessagebox(title="Error", message="Invalid Input!", icon="cancel")
         return
 
-
 # Update Users Debits/Withdrawal
 def debit_write(master, amount, username):
     ctk.set_appearance_mode("dark")
