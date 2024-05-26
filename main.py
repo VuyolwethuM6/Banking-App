@@ -385,7 +385,6 @@ def deposit_amt(username):
     b1 = ctk.CTkButton(deposit_wind, text="Cancel", command=deposit_wind.destroy)
     b1.pack(pady=12, padx=10)
 
-
 # Update Users Credit/Deposits
 def crdt_write(master, amount, username):
     ctk.set_appearance_mode("dark")
