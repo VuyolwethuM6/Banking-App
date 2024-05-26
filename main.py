@@ -225,7 +225,6 @@ def forgot_password(master):
     reset_button.grid(row=3, column=1, padx=10, pady=10, sticky="e")
     forgotPassword_wind.bind("<Return>", lambda x: recover_password(forgotPassword_wind, e1.get().strip(), e2.get().strip(), e3.get().strip()))
 
-
 def check_log_in(master, username, password):
     user_data = load_user_data()
     if username in user_data:
