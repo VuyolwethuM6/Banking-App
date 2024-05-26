@@ -356,7 +356,6 @@ def logged_in_menu(username):
                        command=lambda: logout(root_wind))
     b6.grid(row=5, column=0, pady=12, padx=10, sticky='nsew')
 
-
 # Make deposit window
 def deposit_amt(username):
     ctk.set_appearance_mode("dark")
